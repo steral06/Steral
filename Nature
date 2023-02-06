@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nature, Météo et Influences</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Nature, Météo et Influences</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#nature">Nature</a></li>
+        <li><a href="#meteo">Météo</a></li>
+        <li><a href="#influences">Influences</a></li>
+        <li><a href="#Video">Video</a></li>
+
+      </ul>
+    </nav>
+    <main>
+      <section id="nature">
+        <h2>Nature</h2>
+        <p>La nature est un élément important de notre vie. Elle nous apporte de la beauté, de la paix et de l'équilibre.</p>
+       
+        <ul>
+          <div class="fait" style="display: flex;">
+          <img src="image/OIP (2).jpg" alt="Image 1" >
+          <img src="image/OIP (3).jpg" alt="Image 2" >        
+          <img src="image/OIP (4).jpg" alt="Image 3" >
+        </div>
+        </ul>
+       
+      </section>
+      <section id="meteo">
+        <h2>Météo</h2>
+        <p>La météo est un élément incontournable de notre vie quotidienne. Elle influence nos activités et notre bien-être.</p>
+        <table>
+          <tr>
+            <th>Jour</th>
+            <th>Temps</th>
+            <th>Température</th>
+          </tr>
+          <tr>
+            <td>Lundi</td>
+            <td>Soleil</td>
+            <td>20°C</td>
+          </tr>
+          <tr>
+            <td>Mardi</td>
+            <td>Pluie</td>
+            <td>15°C</td>
+          </tr>
+          <tr>
+            <td>Mercredi</td>
+            <td>Nuageux</td>
+            <td>18°C</td>
+          </tr>
+        </table>
+       <img src="image/3d_precip.gif" alt="image de la nature">
+        
+      </section>
+      <section id="influences">
+        <h2>Influences</h2>
+        <p>Les influences de la nature et de la météo sont visibles dans notre vie quotidienne. Elles ont un impact sur notre santé, notre humeur et notre travail.</p>
+        <img class="img1" src="image/OIP (1).jpg" alt="Image des influences">
+      </section>
+    </main>
+    <Section id="Video">
+    <footer>
+      <h1>Ce site nous montre d'une mannière récaputilative la nature</h1>
+      <table><td>Vous pouvez suivre ces vidéos de la nature</td></table>
+      <video width="430" height="240" controls>
+        <source src="video/From Earth to the Universe — Triangulum Galaxy.mp4" type="video/mp4">
+        <source src="video/From Earth to the Universe — Triangulum Galaxy.mp4" type="video/ogg">
+        la nature
+      </video>
+      <video width="430" height="240" controls>
+        <source src="video/Météo du 02 juillet 2020.mp4" type="video/mp4">
+        <source src="video/Météo du 02 juillet 2020.mp4" type="video/ogg">
+       La nature
+      </video>
+      <video width="430" height="240" controls>
+        <source src="video/L'Estéron, rivière sauvage.mp4" type="video/mp4">
+        <source src="video/L'Estéron, rivière sauvage.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+      
+      
+    </footer>
+    </Section>
